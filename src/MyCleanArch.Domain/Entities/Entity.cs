@@ -1,6 +1,6 @@
 ﻿namespace MyCleanArch.Domain;
 
-public sealed class Entity
+public abstract class Entity
 {
-  public int Id { get; protected set; }
+    public int Id { get; protected set; }
 }
